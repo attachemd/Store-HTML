@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0 viewport-fit=cover" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <title>The Store - Home page</title>
+        <link href="img/favicon.ico" rel="shortcut icon">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/plugins.css" rel="stylesheet">
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div data-target="#navbarResponse" id="home">
+            <nav class="navbar navbar-expand-lg fixed-top solid">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#home">
+                        <img alt="" src="img/logo-no-txt.png">
+                        <span>The Store</span>
+                    </a>
+                    <button class="navbar-toggler custom-button" data-bs-target="#navbarResponsive"
+                            data-bs-toggle="collapse"
+                            type="button">
+                        <span class="custom-toggler-icon icon-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navigation -->
+        </div>
+        <!-- Start Breadcrumb -->
+        <nav aria-label="breadcrumb" class="p-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li aria-current="page" class="breadcrumb-item active">Data</li>
+            </ol>
+        </nav>
+        <!-- End Breadcrumb -->
+
+        <!-- Start Product details -->
+
+        <div class="container product-details">
+            <div class="row">
+                <div class="col-md-6 product-img">
+                    <div class="row">
+                        <div class="col-md-3 sm-img d-none d-md-block">
+                            <img src="img/white-chair.png"></img>
+                        </div>
+                        <div class="col-md-9 big-img">
+                            <img src="img/white-chair.png"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 product-desc">
+                    <button type="button" class="btn btn-light sale mb-3">SALE</button>
+                    <h2 class="mb-3">T-Shirt Summer Vibes</h2>
+                    <div class="price mb-4">$89.99</div>
+                    <h3 class="details-sub-title">color:</h3>
+                    <ul class="mb-4">
+                        <li>
+                            <div class="color-item-1"></div>
+                        </li>
+                        <li>
+                            <div class="color-item-2"></div>
+                        </li>
+                        <li>
+                            <div class="color-item-3"></div>
+                        </li>
+                        <li>
+                            <div class="color-item-4"></div>
+                        </li>
+                    </ul>
+                    <h3 class="details-sub-title">Size:</h3>
+                    <select class="form-select mb-4" aria-label="Default select example">
+                        <option selected>CHOOSE SIZE</option>
+                        <option value="1">8</option>
+                        <option value="2">8.5</option>
+                        <option value="3">9</option>
+                    </select>
+                    <h3 class="details-sub-title">Quantity:</h3>
+                    <form>
+                        <div class="number-spinner">
+                    <span class="ns-btn">
+                      <a data-dir="dwn"><span class="icon-minus"></span></a>
+                    </span>
+                            <input class="pl-ns-value" maxlength=2 type="text" value="1">
+                            <span class="ns-btn">
+                        <a data-dir="up">
+                            <span class="icon-plus"></span>
+                        </a>
+                    </span>
+                        </div>
+                        <button type="button" class="btn btn-light">Light</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Product details -->
+
+        <div class="selected-products">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="heading py-5 px-3">Selected just for you</h3>
+                </div>
+                <div class="container">
+                    <div class="owl-carousel owl-theme" id="products-carousel">
+                        <div class="card">
+                            <img alt="" class="card-img-top rounded-0" src="img/farlov.png">
+                            <div class="card-body">
+                                <h4>Home office comfy chair</h4>
+                                <h5>$69.99</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img alt="" class="card-img-top rounded-0" src="img/white-sofa.png">
+                            <div class="card-body">
+                                <h4>White sofa</h4>
+                                <h5>$119.99</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img alt="" class="card-img-top rounded-0" src="img/green-sofa.png">
+                            <div class="card-body">
+                                <h4>Green couch sofa</h4>
+                                <h5>$149.99</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img alt="" class="card-img-top rounded-0" src="img/white-chair.png">
+                            <div class="card-body">
+                                <h4>White chair</h4>
+                                <h5>$69.99</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container newsletter my-5 px-5">
+            <div class="newsletter-bg"></div>
+            <div class="row align-items-center">
+                <div class="col-md-5 text-light pe-5 newsletter-txt">
+                    Subscribe to our newsletter and receive exclusive offers every week
+                </div>
+                <div class="col-md-7">
+                    <form action="" class="newsletter-form">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Enter your email" type="email">
+                        </div>
+                        <input class="ms-3 submit" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid py-5 footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <a class="navbar-brand footer-logo mb-3" href="#home">
+                            <img alt="" src="img/logo-no-txt.png">
+                            <span>The Store</span>
+                        </a>
+                        <p class="mb-5">High quality Scandinavian furniture made from eco-friendly materials. Designed
+                            for modern, minimalist apartments</p>
+                        <ul class="social mb-3">
+                            <li><a class="icon-facebook" href="#"></a></li>
+                            <li><a class="icon-twitter" href="#"></a></li>
+                            <li><a class="icon-linkedin2" href="#"></a></li>
+                            <li><a class="icon-instagram" href="#"></a></li>
+                            <li><a class="icon-youtube" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2 column2">
+                        <h4>Shopping online</h4>
+                        <ul class="mb-3">
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Shipping and Delivery</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2 column2">
+                        <h4>Information</h4>
+                        <ul class="mb-3">
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Find a store</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Bacome a member</a></li>
+                            <li><a href="#">Site feedback</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-4 column2">
+                        <h4>Contact</h4>
+                        <ul class="mb-3">
+                            <li><a href="#">mattache.vivace@gmail.com</a></li>
+                            <li><a href="#">Hotline: +212 654 930 868</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plugins.js"></script>
+
+    </body>
+</html>
